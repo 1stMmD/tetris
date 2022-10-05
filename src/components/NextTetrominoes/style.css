@@ -1,0 +1,85 @@
+.nextTetrominoes
+{
+    width:70px;
+    background : linear-gradient(0deg, rgba(0,152,167,1) 0%, rgba(0,206,178,1) 100%);
+    border-radius: 0 20px 20px 0;
+    min-height: 180px;
+    margin-top: -7rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titleNext
+{
+    color : #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.cellContainer
+{
+    margin-top:2rem ;
+}
+
+.colored
+{
+    width:10px;
+    height: 10px;
+    background-color: #fff;
+}
+
+@media (200px <= width <= 400px ) {
+    .nextTetrominoes 
+    {
+        width:40px;
+        min-height: 100px;
+        border-radius: 0 10px 10px 0;
+        margin-top: -4rem;
+    }
+
+    .titleNext
+    {
+        font-size: .5rem;
+    }
+
+    .cellContainer
+    {
+        margin-top:1rem;
+    }
+
+    .colored
+    {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+@media (400px <= width <= 600px ) {
+    .nextTetrominoes 
+    {
+        width:55px;
+        min-height: 140px;
+        border-radius: 0 10px 10px 0;
+        margin-top: -4rem;
+    }
+
+    .titleNext
+    {
+        font-size: .7rem;
+    }
+
+    .cellContainer
+    {
+        margin-top:1.5rem;
+    }
+
+    .colored
+    {
+        width: 8px;
+        height: 8px;
+    }
+}

@@ -1,0 +1,27 @@
+.div
+{
+    position: absolute;
+    bottom: 50%;
+    right:50%;
+    transform: translateX(50%) translateY(50%);
+    z-index: 4;
+}
+
+@keyframes show {
+    0%{opacity: 0; transform: translateY(50%) translateX(50%) scale(0)};
+    80%{transform:translateY(50%) translateX(50%) scale(1.1);}
+    100%{opacity: 1;transform:translateY(50%) translateX(50%) scale(1);}
+}
+
+.GameGuide
+{
+    height:min(80vh,80vw);
+    position: absolute;
+    bottom: 50%;
+    right:50%;
+    z-index: 5;
+    cursor: pointer;
+    transform: translateX(50%) translateY(50%);
+    animation: show 1000ms forwards;
+}
+

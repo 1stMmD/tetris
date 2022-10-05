@@ -1,0 +1,30 @@
+.Cell
+{
+    width:30px;
+    height:30px;
+    background-color : transparent ;
+}
+
+.color
+{
+    background: var(--color);
+}
+
+.withShadow{
+    box-shadow: 0 -8px 0 0 var(--shadow-color);
+}
+
+@media ( 200px <= width <=400px ) {
+    .Cell{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (400px <= width <= 600px ) {
+    .Cell
+    {
+        width: 20px;
+        height: 20px;
+    }
+}

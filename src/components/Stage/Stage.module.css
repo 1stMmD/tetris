@@ -1,0 +1,19 @@
+.Stage
+{
+    background: linear-gradient(0deg, rgba(9,43,109,1) 0%, rgba(68,11,96,1) 100%);
+    display:grid;
+    border-radius:15px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.1);
+}
+
+@media ( 200px <= width <=400px ) {
+    .Stage{
+        border-radius: 7px;
+    }
+}
+
+@media ( 400px <= width <=600px ){
+    .Stage{
+        border-radius: 14px;
+    }
+}

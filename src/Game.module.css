@@ -1,0 +1,34 @@
+.Container
+{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+}
+
+.Game
+{
+    display:flex;  
+    width:100%;
+    height:80vh;
+    justify-content:center;
+    align-items:center;
+}
+
+.Controlers
+{
+    display : flex;
+    width:100%; 
+    justify-content:space-evenly;
+}
+
+@media (hover) {
+
+    .Game {
+        height: 100vh;
+    }
+    .Controlers
+    {
+        height: 0;
+        display: none;
+    }
+}
